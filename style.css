@@ -1,0 +1,53 @@
+ /* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 0;
+  font-family: serif;
+  font-size: 20px;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+/* main screen elements */
+
+h1 {
+    color: #1ebfd2;
+    /* #a00083; */
+    font-family: 'Ruge Boogie', cursive;
+    font-size: 70px;
+    margin: 0;
+    font-weight: bold;
+}
+
+h2 {
+    color: #1e61d2;
+    /* #a00083; */
+    margin: 0;
+    font-family: 'Ruge Boogie', cursive;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://cdn.glitch.global/57984ef2-69ab-4e6a-97ff-2293810201ba/marineanimal.png?v=1669342042804");
+    background-size: cover;
+}
